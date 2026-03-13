@@ -1,0 +1,18 @@
+spring:
+  application:
+    name: flashsale
+  datasource:
+    url: jdbc:postgresql://localhost:5432/flashsale_db
+    username: postgres
+    password: 1
+    driver-class-name: org.postgresql.Driver
+    jpa:
+      hibernate:
+        ddl-auto: validate
+      show-sql: true
+    flyway:
+      enabled: true
+      baseline-on-migrate: true
+app:
+  order:
+    max-quantity-per-user: 2

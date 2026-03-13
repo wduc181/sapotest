@@ -1,0 +1,1 @@
+INSERT INTO products (name, price, stock) VALUES ('Sản phẩm flsale', 500000, 500);
